@@ -1,0 +1,42 @@
+.rows
+{
+    width:100%;
+    display:block;
+}
+
+
+.box {
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+    outline: 5px solid green;
+    outline-offset: 20px;
+}
+.border-radius {
+    border-radius: 50px;
+}
+        .box img {
+    margin-left: auto;
+    margin-right: 70px;
+    display: block;
+    padding: 10px;
+    }
+    .box img:hover {
+    transform: rotateY(180deg);
+}
+.box.border-radius {
+    border-radius: 50;
+}
+         p {
+    border: 2px solid red;
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+    background-color: yellow;
+    color: red;
+    }
+

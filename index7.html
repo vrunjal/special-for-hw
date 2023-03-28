@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="vrunjal"></div>
+    <script>
+        let mykey="model"
+        let myans="year"
+        const car={
+            model:"tigor",
+           year:2012,
+            type:"diesel",
+        }
+        document.getElementById("vrunjal").innerHTML=
+        `this is my car:${car[mykey]} ${car[myans]}`
+
+    </script>
+
+    <div id="addressname"></div>
+    <script>
+        const address ={
+           area:"vadodara",
+           pincode:"391440",
+        }
+        document.getElementById("addressname").innerHTML=
+        `This is my address: ${address["area"]} ${address["pincode"]}`
+    </script>
+
+
+    <div id="state"></div>
+    <script>
+       
+        
+        const differentstate={
+            statename:"gujarat",
+            state2:"maharastra",
+        }
+        document.getElementById("state").innerHTML=
+        `states name: ${differentstate["statename"]} ${differentstate["state2"]}`
+    </script>
+</body>
+</html>

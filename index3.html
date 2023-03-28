@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="display">
+      
+    </ul>
+    <script>
+        // education used as a name bcz we are writing qualifications.
+        let education=["10th","12th","B.Sc.","M.Sc."];
+        // map function add new arrey automatically so next time when we add new qualification it will add and display in body.
+        let d=education.map(function(a) {
+            return `<li>${a}</li>`
+            // `` sign used for
+            //$ used for
+            //{a} is used as a value.
+        })
+
+        document.getElementById("display").innerHTML=d.join("");
+        // innerHTML we have to write when we are using ul,li,etc...
+        // innerText we have to write when we are using A,B,C,D,E,etc...
+        console.log(d)
+        //console used for to look in console via inspect element.
+    </script>
+    
+</body>
+</html>

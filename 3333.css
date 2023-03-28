@@ -1,0 +1,30 @@
+div{
+    width:300px;
+    border:10px solid green;
+    margin:200px;
+    padding: 200px;
+    background-image: url('545.png');
+    background-position: 40px 7px;
+    outline-style: double;
+    outline-style: solid;
+    outline-color: red;
+    float: left;
+    }
+    p{
+        outline-style: dashed;
+        outline-style: solid;
+        outline-width:5px;
+        outline-color: pink;
+        border:3px solid black;
+        float: left;
+        
+        
+
+    }
+    body{
+        border:15px solid blue;
+        float: left;
+        margin:50px;
+        padding:50px;
+    
+    }

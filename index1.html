@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="counter1()">+</button>
+    <button onclick="counter2()">-</button>
+    <button onclick="counter3()">*</button>
+    <button onclick="counter4()">/</button>
+    <div id="counter">1</div>
+    <script>
+      
+      let d = 1;
+      
+        function counter1()
+        {
+          d=d+1;
+          document.getElementById("counter").innerHTML =d;
+        }
+
+        function counter2()
+        {
+          d=d-1;
+          document.getElementById("counter").innerHTML =d;
+        }
+
+        function counter3()
+        {
+          d=d*2;
+          document.getElementById("counter").innerHTML=d;
+        }
+
+        function counter4()
+        {
+          d=d/2;
+          document.getElementById("counter").innerHTML=d;
+        }
+     
+        </script>
+        
+        
+       
+        
+   
+        
+</body>
+</html>

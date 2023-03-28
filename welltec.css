@@ -1,0 +1,184 @@
+.header1{
+    border:1px solid white;
+    color:blue;
+    float: left;
+    display: flex;
+
+  }
+  .a{
+    border:1px solid white;
+    background-color: azure;
+  }
+  .waytosucess{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+    margin-left: 10px;
+  }
+  .weltec{
+    margin-bottom: 0px;
+    padiing:0px;
+    margin-left: 10px;
+    border:1px solid black;
+  }
+  .asi {
+    font-size: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: blue;
+    padding: 43px;
+}
+
+div.b {
+  background: url("alison_courseware_intro_3801.jpg") repeat;
+  border: 1px solid black;
+  margin: 30px;
+}
+div.c {
+  margin:30px;
+  background-color:white;
+  border:1px solid black;
+  opacity:0.6;
+}
+div.c p{
+  margin:5%;
+  font-weight: bold;
+  color:#000000;
+}
+
+div.d {
+  background: url("alison_courseware_intro_3801.jpg") repeat;
+  border: 1px solid black;
+  margin: 30px;
+}
+div.e{
+  margin:30px;
+  background-color: white;
+  border:1px solid black;
+  opacity:0.6;
+}
+div.e span{
+  margin:5%;
+  font-weight: bold;
+  color:#000000;
+}
+.z {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.q {
+  border: 1px solid white;
+  background-color: aliceblue;
+}
+span.i {
+  color: blue;
+  font-size: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+img.j {
+  margin-left: 152px;
+}
+span.kk {
+  color: grey;
+  border: 1px solid white;
+}
+.n {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+input#text {
+  margin: 10px;
+  padding: 10px;
+}
+input#email {
+  margin: 10px;
+  padding: 10px;
+}
+input#phone {
+  margin: 10px;
+  padding: 10px;
+}
+button.o {
+  width: 190px;
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+}
+p.p {
+  font-size: 24px;
+  color: blue;
+}
+li.r {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 45%;
+}
+  .footer{
+    background-color: purple;
+    height:auto;
+    overflow:visible;
+  }
+  .heading{
+    color:blue;
+    
+  }
+
+  .div{
+    display: inline;
+    width:20%;
+    color:white;
+    
+    
+  }
+
+  li{
+    list-style-type: none;
+    
+  }
+
+
+
+  .clearfix{
+   content: '';
+   display: table;
+   clear: both;
+  }
+
+  .social-media{
+
+  }
+
+  .artic{
+    color:black;
+    text-transform: capitalize;
+  
+  }
+  .partic{
+    color:grey;
+  }
+  .button{
+    background-color: purple;
+    
+  }
+  .live{
+    text-transform: capitalize;
+  }
+  .diiv{
+    border:1px solid black;
+    background-color: grey;
+    margin-top:20px;
+  }
+
+
+  .col-25{
+    width: 25%;
+    float:left;
+  }
